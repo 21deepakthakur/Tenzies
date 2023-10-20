@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px 20px 30px 20px;
+  background: #0B2434;
+}
+
+div {
+
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  padding: 34px;
+  background: #F5F5F5;
+  background-clip: padding-box;
+
+  border-radius: 10px
+}
+
+.title {
+
+  font-family: Karla;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  
+}
+
+.instructions {
+
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  
+  text-align: center;
+}
+
+.Square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 35px;
+  height: 36px;
+  width: 36px;
+  box-shadow: 0px 2px 2px 0px #00000026;
+
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.all--dice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.die--value {
+
+  padding: 0px;
+  font-family: Karla;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 24px;
+  
+}
+
+.button {
+  margin-top: 25px;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(80, 53, 255, 1);
+
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  
+  cursor: pointer;
+
+  box-shadow: 0px 2px 2px 0px #00000026;
+
+}
+
+.button:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
