@@ -8,10 +8,16 @@ body {
   background: #0B2434;
 }
 
+.scores {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  align-self: end;
+  height: 70px;
+  background-color: rgba(80, 53, 255, 1);
+}
+
 div {
-
   align-items: center;
-
   display: flex;
   flex-direction: column;
   padding: 34px;
@@ -19,6 +25,33 @@ div {
   background-clip: padding-box;
 
   border-radius: 10px
+}
+
+.max-score{
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-self: end;
+
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.current-score{
+  margin-right: 10px;
+  margin-top: 0px;
+  align-self: end;
+
+  font-family: Karla;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: center;
 }
 
 .title {
